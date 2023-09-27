@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width:400px) and (max-width:900px) {
+    
+header {
+    display: none;
+}
+
+.fixo {display: none;}
+
+.content {
+    width: 100%;
+    height: 90%;
+    margin: auto;
+}
+
+#frame {
+    min-width: 500px;
+    
+}
+
+}
+

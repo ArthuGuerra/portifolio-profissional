@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas de cria</title>
+    <link rel="shortcut icon" href="../fotos/favicon_io/apple-touch-icon.png" type="image/x-icon">
+
+
+  <style>
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    main {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+    caption {
+        text-align: center;
+        font-variant: small-caps;
+        font-size: 30pt;
+    }
+
+    table {
+        border-collapse: collapse;
+        position: relative;
+      
+       
+    }
+
+
+    th {
+        border: 1px solid black;
+        background-color: rgb(197, 190, 190);
+        font-size: 15pt;
+        padding: 8px;
+    }
+
+
+    td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+        justify-content: end;
+        width: 200px;
+       
+    }
+
+
+    .segunda {
+        position: absolute;
+        width: 1200px;
+        left: 18%;
+        margin-top: 100px;
+      
+
+    }
+
+    tbody > tr:nth-child(2n) {
+        background-color: lightgray;
+
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: rgb(197, 190, 190);
+    }
+
+
+
+
+.header {
+   width: 100%;
+   height: 45px;
+   background-color: black;
+   display: flex;
+   justify-content: space-around;
+   padding: 3px;
+   
+    
+}
+
+.meu-nome {
+    float: left;
+    color: white;
+    display: flex;
+}
+#normal {
+    font-variant: small-caps;
+}
+
+#colorido {
+    color: rgb(224, 81, 105);
+    padding-left: 6px;
+    font-variant: small-caps;
+}
+
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menu > li {
+
+border-radius: 7px;
+padding: 3px;
+margin-left: 20px;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+.menu > li > a:hover {
+    text-decoration: underline;
+}
+
+  </style>
+
+
+</head>
+<body>
+
+
+    <main> 
+
+        <div class="header">
+            <div class="meu-nome">
+                <h1 id="normal">Arthur</h1> <h1 id="colorido">Guerra</h1>
+            </div>
+            <menu>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#sobre-mim">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#projetos-pessoais">Projetos pessoais</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </menu>
+            </div>
+
+   
+    <table class="segunda">
+        <caption>Ranking Animes</caption>
+
+        <thead>
+            <tr>
+
+            <th scope="col">Q°</th>
+            <th scope="col">  Animes:   </th>
+            <th scope="col"> Audiência  </th>
+            <th scope="col"> Mais assistido em/no:  </th>
+            <th scope="col">Custo   </th>
+            <th scope="col"> Lucro  </th>
+            <th scope="col">  Nota de o a 10    </th>
+
+            </tr>
+
+      
+
+        <tbody>
+    <tr>
+        <td>1   </td>
+        <td>Naruto Clássico</td>
+        <td>41,5 Mi</td>
+        <td>japao</td>
+        <td>10,4 mi</td>
+        <td>50 mi</td>
+        <td>10</td>
+    </tr>
+
+    <tr> 
+        <td>2</td>
+        <td> Naruto Shippuden</td>
+        <td>40 mi</td>
+        <td>America latina</td>
+        <td>10 mi</td>
+        <td>50 mi </td>
+        <td>10</td>
+        
+    </tr>
+
+    <tr> 
+        <td>3</td>
+        <td> Bleach</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>8</td>
+        
+    </tr>
+
+    <tr> 
+        <td>4</td>
+        <td> Death Note</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>8</td>
+        
+    </tr>
+
+    <tr> 
+        <td>5</td>
+        <td> Jujutsu Kaisen</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+    <tr> 
+        <td>6</td>
+        <td>Kimetsu no yaiba</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+    <tr> 
+        <td>7</td>
+        <td>Kage no Jitsuryokusha ni naritakute</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+    <tr> 
+        <td>8</td>
+        <td> kill la kill </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>9</td>
+        
+    </tr>
+
+    <tr> 
+        <td>9</td>
+        <td>Tokyo Ghoul </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>8.5</td>
+        
+    </tr>
+
+    <tr> 
+        <td>10</td>
+        <td> Blue Lock</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+    <tr> 
+        <td>11</td>
+        <td> Fullmetal Alchemist brotherhood</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+    <tr> 
+        <td>12</td>
+        <td> kekkai sensen </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>8.5</td>
+        
+    </tr>
+
+    <tr> 
+        <td>13</td>
+        <td> Chainsaw Man </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+    <tr> 
+        <td>14</td>
+        <td> Tensei shitara slime datta ken </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+    <tr> 
+        <td>15</td>
+        <td>Zentsuen no Tempest</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+    <tr> 
+        <td>16</td>
+        <td> hunter x hunter</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>10</td>
+        
+    </tr>
+
+    <tr> 
+        <td>17</td>
+        <td>One punch Man</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>10</td>
+        
+    </tr>
+
+    <tr> 
+        <td>18</td>
+        <td> BLUE exorcist</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>8</td>
+        
+    </tr>
+
+    <tr> 
+        <td>19</td>
+        <td> fairy Tail</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>8</td>
+        
+    </tr>
+
+    <tr> 
+        <td>20</td>
+        <td> Soul eater</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>7.5</td>
+        
+    </tr>
+
+    <tr> 
+        <td>21</td>
+        <td> Shingeki no Kyojin</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+    <tr> 
+        <td>22</td>
+        <td>Nanatsu No Taizai </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>8</td>
+        
+    </tr>
+
+    <tr> 
+        <td>23</td>
+        <td> Akame Ga kill</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+    <tr> 
+        <td>24</td>
+        <td>Sword art Online </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>25</td>
+        <td> Black bullet</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>7</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>26</td>
+        <td> Mirai Nikki</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>7.5</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>27</td>
+        <td> black Clover </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>8</td>
+        
+    </tr>
+
+
+
+    <tr> 
+        <td>28</td>
+        <td>My hero academy</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td></td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>29</td>
+        <td> jojos bizarres adventure</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td></td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>30</td>
+        <td> MOb psycho </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td></td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>31</td>
+        <td> DOctor STONE </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>32</td>
+        <td> TOKYO REVENGERS</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>8</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>33</td>
+        <td> SPY E FAMILY</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>10</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>34</td>
+        <td>CYBERPUNK</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>35</td>
+        <td>Ragnarok</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>9</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>36</td>
+        <td>tate no yusha</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>37</td>
+        <td>No game no LIFE</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>38</td>
+        <td>O rapaz e o monstro</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>39</td>
+        <td>Jitsu wa Ore</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td></td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>40</td>
+        <td>High school of the death</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>41</td>
+        <td>Overlord</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>9</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>42</td>
+        <td>God eater</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>9</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>43</td>
+        <td>SENYUU</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td>10</td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>44</td>
+        <td>Mushoku tensei</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td></td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>4</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td></td>
+        
+    </tr>
+
+
+    <tr> 
+        <td>4</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td> </td>
+        <td></td>
+        
+    </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row"></th>
+                <th scope="row"></th>
+                <th scope="row"></th>
+                <th scope="row"></th>
+                <th scope="row"></th>
+                <th scope="row"></th>
+                <th scope="row"></th>
+            </tr>
+
+        </tfoot>
+    </table>
+    
+</main>
+</body>
+</html>
