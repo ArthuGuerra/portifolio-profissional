@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body {
+    background: linear-gradient(to bottom, transparent,rgb(115, 182, 115));
+    background-attachment: fixed;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+fieldset {
+    width: 500px;
+    padding: 10px;
+}
+
+select {
+    padding: 5px;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+}
+
+form {
+    position: absolute;
+    top: 60px;
+    left: 35%;
+    text-align: center;
+    border: 1px solid black;
+    height: 700px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.486);
+    
+    
+    
+}
+
+input {
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 12pt;
+    background-color: transparent;
+    border: 1px solid black;
+
+}
+
+.profissao {
+    margin-top: 20px;
+}
+
+.data {
+    position: relative;
+    left: -60px;
+}
+
+.estado {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    position: relative;
+    bottom: -40px;
+}
+
+fieldset {
+    border: none;
+}
+
+select {
+    border-radius: 5px;
+    font-size: 12pt;
+    background-color: transparent;
+    
+}
+
+#limpar:hover {
+    background-color: palevioletred;
+    transform: scale(1.1);
+}
+
+#enviar:hover {
+    background-color: palevioletred;
+    transform: scale(1.1);
+}
